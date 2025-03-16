@@ -1,0 +1,55 @@
+2025-03-15 20:31:19,071 - ERROR - Environment variable OPENAI_API_KEY is not set.
+2025-03-15 21:04:19,102 - INFO - Loading data from fabric_data.csv
+2025-03-15 21:04:19,172 - INFO - Loaded 200 rows from fabric_data.csv
+2025-03-15 21:04:19,198 - INFO - Data preprocessing completed
+2025-03-15 21:04:19,874 - INFO - Generating embeddings for 200 products
+2025-03-15 21:04:21,792 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-15 21:04:24,644 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-15 21:04:25,826 - INFO - Processed embeddings for batch 1
+2025-03-15 21:04:27,170 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-15 21:04:29,321 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-15 21:04:30,326 - INFO - Processed embeddings for batch 2
+2025-03-15 21:04:30,329 - INFO - Embeddings generated successfully
+2025-03-15 21:04:30,333 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\Manan\\OneDrive\\Documents\\vector_embedding_project\\venv\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-15 21:04:30,334 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-15 21:04:30,402 - INFO - Installing plugin inference into Pinecone
+2025-03-15 21:04:32,583 - INFO - Pinecone index 'product-raw-material-index' is ready
+2025-03-15 21:04:32,583 - INFO - Storing 200 embeddings in Pinecone
+2025-03-15 21:04:32,585 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\Manan\\OneDrive\\Documents\\vector_embedding_project\\venv\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-15 21:04:32,585 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-15 21:04:32,585 - INFO - Installing plugin inference into Pinecone
+2025-03-15 21:04:33,651 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\Manan\\OneDrive\\Documents\\vector_embedding_project\\venv\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-15 21:04:33,652 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-15 21:04:34,950 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-15 21:04:40,694 - INFO - Embeddings stored in Pinecone successfully
+2025-03-15 21:04:41,293 - INFO - RetrievalQA chain set up successfully
+2025-03-15 21:05:18,795 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-15 21:05:20,002 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 15:22:17,726 - INFO - Loading data from fabric_data.csv
+2025-03-16 15:22:17,816 - INFO - Loaded 200 rows from fabric_data.csv
+2025-03-16 15:22:17,833 - INFO - Data preprocessing completed
+2025-03-16 15:22:19,085 - INFO - Generating embeddings for 200 products
+2025-03-16 15:22:20,896 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-16 15:22:23,171 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-16 15:22:24,349 - INFO - Processed embeddings for batch 1
+2025-03-16 15:22:26,033 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-16 15:22:27,950 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-16 15:22:29,068 - INFO - Processed embeddings for batch 2
+2025-03-16 15:22:29,081 - INFO - Embeddings generated successfully
+2025-03-16 15:22:29,087 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\Manan\\OneDrive\\Documents\\vector_embedding_project\\venv\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-16 15:22:29,092 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-16 15:22:29,092 - INFO - Installing plugin inference into Pinecone
+2025-03-16 15:22:31,590 - INFO - Pinecone index 'product-raw-material-index' is ready
+2025-03-16 15:22:31,590 - INFO - Storing 200 embeddings in Pinecone
+2025-03-16 15:22:31,596 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\Manan\\OneDrive\\Documents\\vector_embedding_project\\venv\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-16 15:22:31,598 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-16 15:22:31,599 - INFO - Installing plugin inference into Pinecone
+2025-03-16 15:22:33,401 - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\Manan\\OneDrive\\Documents\\vector_embedding_project\\venv\\Lib\\site-packages\\pinecone_plugins'])
+2025-03-16 15:22:33,401 - INFO - Looking for plugins in pinecone_plugins.inference
+2025-03-16 15:22:35,286 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-16 15:22:43,622 - INFO - Embeddings stored in Pinecone successfully
+2025-03-16 15:22:44,975 - INFO - RetrievalQA chain set up successfully
+2025-03-16 15:22:45,829 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-16 15:22:48,026 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-16 15:23:16,812 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-03-16 15:23:17,732 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
